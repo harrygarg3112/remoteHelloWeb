@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="HelloWeb">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="spring-web-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-web-4.1.5.RELEASE-sources/spring-web-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-web-4.1.5.RELEASE/spring-web-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-4.1.5.RELEASE-javadoc/spring-web-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-4.1.5.RELEASE-sources/spring-test-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-4.1.5.RELEASE-sources/spring-tx-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jms-4.1.5.RELEASE/spring-jms-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-messaging-4.1.5.RELEASE/spring-messaging-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-4.1.5.RELEASE-javadoc/spring-tx-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-4.1.5.RELEASE-sources/spring-orm-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-oxm-4.1.5.RELEASE/spring-oxm-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-oxm-4.1.5.RELEASE-javadoc/spring-oxm-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-messaging-4.1.5.RELEASE-sources/spring-messaging-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-oxm-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-oxm-4.1.5.RELEASE-sources/spring-oxm-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-4.1.5.RELEASE/spring-orm-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-4.1.5.RELEASE-sources/spring-jdbc-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-messaging-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-messaging-4.1.5.RELEASE-javadoc/spring-messaging-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-4.1.5.RELEASE-javadoc/spring-test-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-4.1.5.RELEASE-javadoc/spring-orm-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.1.5.RELEASE-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jms-4.1.5.RELEASE-javadoc/spring-jms-4.1.5.RELEASE-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-4.1.5.RELEASE/spring-tx-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jms-4.1.5.RELEASE-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jms-4.1.5.RELEASE-sources/spring-jms-4.1.5.RELEASE-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-4.1.5.RELEASE/spring-test-4.1.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="HelloWeb"/>
+        <property name="java-output-path" value="/HelloWeb/build/classes"/>
+    </wb-module>
+</project-modules>
